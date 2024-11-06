@@ -1,4 +1,4 @@
-
+'use client'
 
 import React from "react";
 import Image from "next/image";
@@ -9,6 +9,7 @@ const CtaBanner02: React.FC = () => {
   return (
     <section className="bg-white pb-11 md:pb-24">
       <div
+        data-aos="zoom-in"
         className="bg-brand-dark w-[90%] h-[auto] py-20 px-20 md:px-28 mx-auto bg-cover bg-center bg-no-repeat  rounded-3xl"
         style={{ backgroundImage: "url('/CTA Banner 2.png')" }}
       >
@@ -25,14 +26,15 @@ const CtaBanner02: React.FC = () => {
           </div>
 
           {/* Column 2: Paragraph and Button */}
-          <div className="flex-1 flex items-center justify-center  text-center md:text-left">
+
+          <div className="text-center">
             <Link href="/">
               <Image
                 src="/Group 2186.png"
                 alt="Logo"
-                width={400} // Set the desired width
-                height={400} // Set the desired height
-                className="object-contain w-full md:w-4/5 h-auto m-auto"
+                width={400}
+                height={400}
+                className="wibble object-contain w-full md:w-4/5 h-auto m-auto"
               />
             </Link>
           </div>

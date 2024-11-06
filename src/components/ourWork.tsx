@@ -1,12 +1,18 @@
 // src/components/OurWork.tsx
 
-import React from "react";
 import Image from "next/image";
 import CustomButton from "./customeBtn";
 
+
+
 const OurWork = () => {
+
+
   return (
-    <section className="px-4 py-20 lg:py-40 bg-white" id="our-work">
+    <section
+      className="px-4 py-20 lg:py-40 bg-white"
+      id="our-work"
+    >
       <div className="container mx-auto text-center max-w-3xl mb-8">
         <h2 className="text-3xl sm:text-4xl font-semibold text-gray-800">
           Our Work

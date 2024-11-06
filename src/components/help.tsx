@@ -30,7 +30,9 @@ const Help: React.FC = () => {
     <section className="pt-14 pb-28 px-6 md:px-20 bg-white">
       <div className="mx-auto flex flex-col lg:flex-row space-y-16 lg:space-y-0 lg:space-x-36">
         {/* Column 1: Accordion */}
-        <div className=" w-full">
+        <div
+          className=" w-full"
+        >
           {questions.map((item, index) => (
             <div
               key={index}
@@ -60,20 +62,25 @@ const Help: React.FC = () => {
           <h2 className="text-3xl md:text-4xl  font-bold text-gray-800 mb-4">
             How we can help you?
           </h2>
-          <p className="text-gray-600  text-lg lg:w-[30vw] ">
+          <p
+            className="text-gray-600  text-lg lg:w-[30vw] "
+     
+          >
             Follow our newsletter. We will regularly update you on our latest
             projects and availability.
           </p>
-          <div className="w-full md:w-4/5">
+          <div
+            className="w-full md:w-4/5"
+          >
             <EmailSubscription buttonText="Let’s Talk" />
           </div>
           <div>
-          <Link
-            href="/faq"
-            className="text-blue-600 font-semibold hover:underline"
-          >
-            More FAQ →
-          </Link>
+            <Link
+              href="/faq"
+              className="text-blue-600 font-semibold hover:underline"
+            >
+              More FAQ →
+            </Link>
           </div>
         </div>
       </div>

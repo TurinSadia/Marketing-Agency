@@ -69,7 +69,7 @@ const ClientSlider: React.FC = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          infinite: true,
+          infinite: false,
           dots: false,
         },
       },
@@ -78,7 +78,7 @@ const ClientSlider: React.FC = () => {
 
   return (
     <div id="about-us">
-      <section className="py-10 px-5 md:px-16 lg:px-20 mb-10 md:mb-40 bg-white">
+      <section className="py-10 px-5 md:px-16 lg:px-20 mb-10 md:mb-40 bg-white overflow-hidden max-w-full">
         <div className="flex items-center justify-between mb-10 px-5">
           <h2 className="text-2xl md:text-3xl font-bold">
             What Our Client Said About Us
@@ -110,8 +110,7 @@ const ClientSlider: React.FC = () => {
         </div>
         <Slider {...settings}>
           {cards.map((card, index) => (
-            <div key={index} className="px-4">
-              {" "}
+            <div key={index} className="max-w-full px-4" data-aos="flip-down">
               {/* Adjust gap with padding here */}
               <div
                 className={`p-5 rounded-3xl shadow-lg ${

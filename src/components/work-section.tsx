@@ -28,6 +28,7 @@ const WorkSection = () => {
               width={100}
               height={100}
               className="w-24 md:w-28 lg:w-32 h-auto object-contain"
+              data-aos="zoom-in-up"
             />
           </div>
           <div>
@@ -46,6 +47,7 @@ const WorkSection = () => {
               width={100}
               height={100}
               className="w-24 md:w-28 lg:w-32 h-auto object-contain"
+              data-aos="zoom-in-up"
             />
           </div>
           <div>
@@ -75,6 +77,7 @@ const WorkSection = () => {
               width={100}
               height={100}
               className="w-24 md:w-28 lg:w-32 h-auto object-contain" // Increased size for Adobe
+              data-aos="zoom-in-up"
             />
           </div>
           <div>
@@ -93,6 +96,7 @@ const WorkSection = () => {
               width={100}
               height={100}
               className="w-24 md:w-28 lg:w-32 h-auto object-contain"
+              data-aos="zoom-in-up"
             />
           </div>
           <div>

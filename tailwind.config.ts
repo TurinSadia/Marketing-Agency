@@ -18,6 +18,7 @@ const config: Config = {
         customBlack: '#0B0B0B',  // Renamed to avoid conflicts
         customTextBlue: '#3461FF',  // Renamed to avoid conflicts
       },
+      
     },
   
   },

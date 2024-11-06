@@ -63,8 +63,13 @@ const Footer: React.FC = () => {
             </Link>
           </div>
 
-          <Link href="/contact" className="pt-10">
-            <CustomButton text="Contact Us" size="large" color="secondary" />
+          <Link href="/contact" className="pt-6">
+            <CustomButton
+              text="Contact Us"
+              size="large"
+              color="secondary"
+              className="bounce-effect"
+            />
           </Link>
         </div>
 

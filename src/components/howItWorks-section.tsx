@@ -57,6 +57,8 @@ const HowItWorkSection = () => {
               },
             ].map((step) => (
               <article
+                data-aos="fade-up"
+                data-aos-duration="2000"
                 key={step.id}
                 className="flex flex-col sm:flex-row items-center text-wrap space-y-4 sm:space-y-0 sm:space-x-4 p-4 pt-10 md:pr-28 sm:pb-12 md:pb-0 bg-gray-100 md:bg-white rounded-md"
               >

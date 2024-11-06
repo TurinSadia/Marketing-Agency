@@ -1,12 +1,11 @@
-
-
 import React from "react";
 
 interface ButtonProps {
   text: string;
-  size?:  "medium" | "large";
-  color?: "primary" | "secondary" ;
+  size?: "medium" | "large";
+  color?: "primary" | "secondary";
   onClick?: () => void;
+  className?: string; // Added className to ButtonProps
 }
 
 const CustomButton: React.FC<ButtonProps> = ({
@@ -14,6 +13,7 @@ const CustomButton: React.FC<ButtonProps> = ({
   size = "medium",
   color = "primary",
   onClick,
+  className = "", // Default value is an empty string
 }) => {
   // Tailwind CSS classes for different sizes
   const sizeClasses = {
@@ -27,18 +27,15 @@ const CustomButton: React.FC<ButtonProps> = ({
       "bg-white text-brand-default hover:bg-blue-700 hover:text-white hover:border hover:border-solid hover:border-white",
     secondary:
       "bg-brand-default text-white hover:bg-white hover:text-brand-default hover:border hover:border-solid hover:border-brand-default",
-    
   };
 
   return (
     <button
       onClick={onClick}
-      className={`rounded-full  transition duration-300 ${sizeClasses[size]} ${colorClasses[color]}`}
+      className={`rounded-full transition duration-300 ${sizeClasses[size]} ${colorClasses[color]} ${className}`} // Applied className here
     >
       {text}
     </button>
-
-    
   );
 };
 

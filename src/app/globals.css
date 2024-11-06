@@ -22,3 +22,52 @@ body {
 .transition-opacity {
   transition-property: opacity;
 }
+
+/* Cta B-02 */
+/* styles/globals.css */
+
+@keyframes wibble {
+
+  0%,
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  25% {
+    transform: rotate(2deg) scale(1.05);
+  }
+
+  50% {
+    transform: rotate(-2deg) scale(1.05);
+  }
+
+  75% {
+    transform: rotate(2deg) scale(1.05);
+  }
+}
+
+.wibble {
+  display: inline-block;
+  animation: wibble 1.5s ease-in-out infinite;
+}
+
+/* Footer Btn - bounce */
+/* Keyframes for bounce effect */
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: translateY(-3px);
+    /* Adjust this value for more or less bounce */
+  }
+}
+
+/* Apply bounce effect to the CustomButton */
+.bounce-effect {
+  display: inline-block;
+  animation: bounce 1s ease infinite;
+}

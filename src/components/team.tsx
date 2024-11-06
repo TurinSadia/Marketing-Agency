@@ -1,5 +1,3 @@
-// src/components/Team.tsx
-
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -7,10 +5,10 @@ import CustomButton from "./customeBtn";
 
 const Team: React.FC = () => {
   return (
-    <section className="py-20 lg:pt-40 px-10 sm:px-20 bg-white">
-      <div className="flex flex-col md:flex-row items-center justify-between md:space-y-5 md:space-x-5 sm:pl-5">
+    <section className="py-20 lg:pt-40 px-5 sm:px-10 bg-white overflow-hidden">
+      <div className="flex flex-col md:flex-row items-center justify-between md:space-y-5 md:space-x-5">
         {/* Column 1: Images */}
-        <div className="w-full pb-16 flex-1 grid grid-cols-3  lg:grid-cols-3 gap-4">
+        <div className="w-full pb-16 flex-1 grid grid-cols-3 lg:grid-cols-3 gap-4">
           {/* Row 1 */}
           <Link href={`/Rectangle 185.png`}>
             <Image
@@ -18,8 +16,9 @@ const Team: React.FC = () => {
               alt="Team Member 1"
               width={300}
               height={300}
-              className=" rounded-lg transform transition hover:scale-105"
+              className="rounded-lg transform transition hover:scale-105"
               layout="responsive"
+              data-aos="fade-right"
             />
           </Link>
           <Link href={`/Rectangle 184.png`}>
@@ -28,7 +27,7 @@ const Team: React.FC = () => {
               alt="Team Member 2"
               width={300}
               height={300}
-              className=" rounded-lg transform transition hover:scale-105"
+              className="rounded-lg transform transition hover:scale-105"
               layout="responsive"
             />
           </Link>
@@ -38,8 +37,9 @@ const Team: React.FC = () => {
               alt="Team Member 3"
               width={300}
               height={300}
-              className=" rounded-lg transform transition hover:scale-105"
+              className="rounded-lg"
               layout="responsive"
+              data-aos="fade-left"
             />
           </Link>
 
@@ -50,8 +50,9 @@ const Team: React.FC = () => {
               alt="Team Member 4"
               width={300}
               height={300}
-              className=" rounded-lg transform transition hover:scale-105"
+              className="rounded-lg transform transition hover:scale-105"
               layout="responsive"
+              data-aos="fade-right"
             />
           </Link>
           <Link href={`/Rectangle 183.png`}>
@@ -70,8 +71,9 @@ const Team: React.FC = () => {
               alt="Team Member 6"
               width={300}
               height={300}
-              className=" rounded-lg transform transition hover:scale-105"
+              className="rounded-lg"
               layout="responsive"
+              data-aos="fade-left"
             />
           </Link>
         </div>

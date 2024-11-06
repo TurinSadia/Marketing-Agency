@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md md:shadow-none fixed w-full z-10 py-0 md:py-3">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between pr-6 md:pr-0 items-center h-16">
+        <div className="flex justify-between pr-2 md:pr-0 items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/">
@@ -80,7 +80,7 @@ const Navbar = () => {
             </a>
           </div>
           {/* Book a Call Button */}
-          <div className="hidden md:block">
+          <div className="hidden md:block ">
             <Link
               href="#book-a-call"
               className="bg-brand-default text-white px-6 py-4 rounded-full hover:bg-indigo-700"

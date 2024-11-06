@@ -8,6 +8,7 @@ const CtaBanner: React.FC = () => {
     <div id="pricing">
       <section className="bg-white px-5 md:px-12 lg:px-20">
         <div
+          data-aos="zoom-in"
           className="bg-blue-700 bg-cover bg-center bg-no-repeat py-36 rounded-3xl"
           style={{ backgroundImage: "url('/CTA Banner.png')" }}
         >

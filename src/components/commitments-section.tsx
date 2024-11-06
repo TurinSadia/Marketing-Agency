@@ -14,7 +14,10 @@ const CommitmentsSection = () => {
             <p className="text-3xl sm:text-4xl font-bold text-customBlack">
               245%
             </p>
-            <p className="text-sm sm:text-base text-gray-600 mt-2">
+            <p
+              className="text-sm sm:text-base text-gray-600 mt-2"
+              data-aos="fade-right"
+            >
               More revenues for the brand
             </p>
           </div>
@@ -22,7 +25,10 @@ const CommitmentsSection = () => {
             <p className="text-3xl sm:text-4xl font-bold text-customBlack">
               130K+
             </p>
-            <p className="text-sm sm:text-base text-gray-600 mt-2">
+            <p
+              className="text-sm sm:text-base text-gray-600 mt-2"
+              data-aos="fade-right"
+            >
               Audiences reached
             </p>
           </div>
@@ -32,7 +38,10 @@ const CommitmentsSection = () => {
             <p className="text-3xl sm:text-4xl font-bold text-customBlack">
               50+
             </p>
-            <p className="text-sm sm:text-base text-gray-600 mt-2">
+            <p
+              className="text-sm sm:text-base text-gray-600 mt-2"
+              data-aos="fade-right"
+            >
               Brands trust us
             </p>
           </div>
@@ -40,7 +49,10 @@ const CommitmentsSection = () => {
             <p className="text-3xl sm:text-4xl font-bold text-customBlack">
               24+
             </p>
-            <p className="text-sm sm:text-base text-gray-600 mt-2">
+            <p
+              className="text-sm sm:text-base text-gray-600 mt-2"
+              data-aos="fade-right"
+            >
               Worldwide awards
             </p>
           </div>

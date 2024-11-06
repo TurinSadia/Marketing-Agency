@@ -1,9 +1,24 @@
 // components/HeroSection.tsx
+"use client";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import AOS from "aos";
+
+
 import Image from "next/image";
 import EmailSubscription from "@/components/emailSubscription";
 
 
 const HeroSection = () => {
+
+    useEffect(() => {
+      AOS.init({
+        duration: 1000, // Global default duration
+        delay: 80, // Global default delay
+        once: false, // Animation only happens once when in view
+      });
+    }, []);
+
   return (
     <section className="flex flex-col md:flex-row items-center justify-center mx-auto px-4 py-16 pt-32 space-y-8 md:space-y-0">
       {/* Hero Text */}
