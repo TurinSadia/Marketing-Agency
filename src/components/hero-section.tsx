@@ -20,7 +20,7 @@ const HeroSection = () => {
     }, []);
 
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center mx-auto px-4 py-16 pt-32 space-y-8 md:space-y-0">
+    <section className="flex flex-col md:flex-row items-center justify-center mx-auto px-4 py-16 py-24 md:pt-32 space-y-8 md:space-y-0">
       {/* Hero Text */}
       <div className="flex flex-col items-left text-center md:text-left w-full md:w-4/5 space-y-6 md:py-10 lg:px-[10vw]">
         <h1 className=" font-extrabold mb-4 leading-tight text-[8vw] md:text-[4vw]">
