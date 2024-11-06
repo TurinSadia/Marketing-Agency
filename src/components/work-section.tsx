@@ -95,7 +95,7 @@ const WorkSection = () => {
               alt="Amazon"
               width={100}
               height={100}
-              className="w-24 md:w-28 lg:w-32 h-auto object-contain"
+              className="w-24 md:w-28 lg:w-32  p-2 h-auto object-contain"
               data-aos="zoom-in-up"
             />
           </div>
