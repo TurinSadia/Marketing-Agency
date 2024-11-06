@@ -32,7 +32,7 @@ const CtaBanner02: React.FC = () => {
                 alt="Logo"
                 width={400} // Set the desired width
                 height={400} // Set the desired height
-                className="object-contain w-4/5 h-auto m-auto"
+                className="object-contain w-full md:w-4/5 h-auto m-auto"
               />
             </Link>
           </div>
