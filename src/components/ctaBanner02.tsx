@@ -9,7 +9,7 @@ const CtaBanner02: React.FC = () => {
   return (
     <section className="bg-white pb-11 md:pb-24">
       <div
-        className="bg-brand-dark w-[90%] h-[auto] py-20 px-28 mx-auto bg-cover bg-center bg-no-repeat  rounded-3xl"
+        className="bg-brand-dark w-[90%] h-[auto] py-20 px-20 md:px-28 mx-auto bg-cover bg-center bg-no-repeat  rounded-3xl"
         style={{ backgroundImage: "url('/CTA Banner 2.png')" }}
       >
         <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between space-y-20 lg:space-y-0">

@@ -54,7 +54,7 @@ const OurWork = () => {
         ))}
       </div>
 
-      <div className="pt-20 text-center">
+      <div className="pt-16 text-center">
         <CustomButton text="See More" size="large" color="secondary" />
       </div>
     </section>
